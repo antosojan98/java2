@@ -1,0 +1,19 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class TestNumber {
+  
+  
+  public static void main(String[] args) { 
+    int a=4;
+    int b=5;
+    
+    double w=a/b;
+    
+    System.out.println(w);
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

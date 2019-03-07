@@ -1,0 +1,17 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.Random;
+public class RandomClass {
+  Random g=new Random();
+  
+  int a;
+  a=g.nextInt(100)+150;
+  
+  public static void main(String[] args) { 
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

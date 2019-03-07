@@ -1,0 +1,26 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class TwoMatrix2D {
+  
+  
+  public static void main(String[] args) { 
+    int[][] b=new int[4][4];
+    Scanner scan=new Scanner(System.in);
+     for(int i=0;i<a.length;i++){
+       System.out.println("Enter your number");
+    
+   // for(int j=0;j<b[0].length;j++)
+   // {
+   //   System.out.print(a[i][j]+b[i][j]);
+   // }
+   //  System.out.println(); 
+    }
+    
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

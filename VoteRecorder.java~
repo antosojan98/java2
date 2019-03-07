@@ -1,0 +1,16 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class VoteRecorder {
+  
+  public VoteRecorder() { 
+    /* YOUR CONSTRUCTOR CODE HERE*/
+  }
+  static String nameCandidatePresident1(
+  public static void main(String[] args) { 
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

@@ -1,0 +1,26 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class Rianfall {
+  
+  
+  public static void main(String[] args) { 
+    int rainfall,annual;
+    
+    Scanner scan=new Scanner(System.in);
+    
+    System.out.println("Eneter the rainfall");
+    rainfall=scan.nextInt();
+    
+    for(int i;i<36;i++)
+    {
+      annual=rainfall*1*0.01;
+      System.out.println(annual);
+    }
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

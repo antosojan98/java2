@@ -1,0 +1,100 @@
+<html>
+<body>
+<head>
+<title> Devanjon Roy's CV </title>
+<style>
+
+a.links:hover{
+border=2px;
+font-size:200%;
+background-color:red;
+}
+
+img #try:active{
+height:100px;
+width:100px;
+}
+
+table#try1:nth-child(odd){
+background:yellow;
+}
+
+table#try1:nth-child(even){
+background:pink;
+}
+
+li.list ul{
+display:none;
+}
+
+li.list:hover ul{
+display:block;
+}
+
+h2{
+background-color:grey;
+color:blue;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;    
+	text-align:center;
+	padding:10px;
+}
+
+</style>
+
+<a class='links' href="http://cs.tru.ca" > cs.tru.ca </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<a class='links' href="#Contact Information" >Contact Information </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class='links' href="#Education" >Education </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class='links' href="#Work Experience" >Work Experience </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class='links' href="#Skills" >Skills </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+</head>
+<hr>
+<hr>
+<h1 style="text-align:center">Devanjon Roy <img id='try' src="CVLogo.jpg" height=70px;width=60px></h1>
+<hr>
+<ol>
+<h2><li class='list'>Contact Information</h2>
+  <ul>
+   <li><i> Address : 850 Mcgill Rd, Kamloops</i></li>
+   <li><i> Phone : 250-572-5501</i></li>
+   <li><i> Email : roydevanjon@gmail.com</i></li>
+  </ul>
+</li>
+<hr>
+<h2><li class='list'>Education</h2>
+  <ul>
+   <li> High School:Dubai Intl School </li>
+   <li> University: <a href="http://www.tru.ca">Thompson Rivers University</a> <img src="tru_logo.jpg" height=70px width=100px></li>
+  </ul>
+</li>
+<hr>
+<h2><li class='list'>Work Experience</h2>
+   <ul>
+    <li>Basic programming related job which included knowledge based on Java </li>
+   </ul>
+</li>
+<hr>
+<h2><li>Skills</h2>
+  <table id='try1'>
+  <tr>
+    <th>Skills</th>
+    <th>Experience</th> 
+    </tr>
+  <tr>
+    <td>Java</td>
+    <td>1 year</td> 
+   </tr>
+  <tr>
+    <td>MySQL</td>
+    <td>6 months</td> 
+    </tr>
+</table>
+</li>
+</ol>
+<hr>
+</body>
+</html>

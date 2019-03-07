@@ -1,0 +1,34 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class UpperLowerCaseCheck {
+  
+  
+  public static void main(String[] args) { 
+    String characters = "hH1u2U3b4B5b sS9pPo0Ot^%T";
+ 
+ 
+ int len = characters.length();
+ 
+ 
+ for(int i = 0; i < len; i++) {
+   
+    char character = characters.charAt(i);
+          if(Character.isUpperCase(character)) {
+         System.out.println("Given character : " + characters.charAt(i)
+    + " is an Uppercase letter");
+    }
+    else if(Character.isLowerCase(character)) {
+  System.out.println("Given character : " + characters.charAt(i)
+    + " is a Lowercase letter");
+    }
+    else {
+  System.out.println("Given character : " + characters.charAt(i)
+    + " is neither Uppercase nor Lowercase letter");
+    }
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

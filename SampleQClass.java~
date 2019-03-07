@@ -1,0 +1,30 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class SampleQClass {
+  
+  String name;
+  double price;
+  double quantity;
+  double value;
+  double total;
+  
+  public get_data() { 
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter your name:");
+    name=scan.nextLine();
+    System.out.println("Enter your price:");
+    price=scan.nextDouble();
+    System.out.println("Enter your quantity:");
+    quantity=scan.nextDouble();
+    
+  }
+  
+  public static void main(String[] args) { 
+    SampleQClass qc=new SampleQClass();
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

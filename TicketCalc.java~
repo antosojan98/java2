@@ -1,0 +1,26 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class TicketCalc {
+  
+  
+  public static void main(String[] args) { 
+   
+    int ticket=100;
+    int newticket;
+    int total=0;
+    int count=0;
+    do{
+       Scanner scan=new Scanner(System.in);
+    System.out.println("Enter the no. of ticket you wanna buy");
+    newticket=scan.nextInt();
+    total=ticket-newticket;
+    count++;
+    }while(ticket<=20)
+      System.out.println("Can't buy more than 20 ");
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

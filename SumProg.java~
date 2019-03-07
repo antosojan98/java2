@@ -1,0 +1,38 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class SumProg {
+  
+  public SumProg() { 
+    /* YOUR CONSTRUCTOR CODE HERE*/
+  }
+  public int sum(int x){
+  int s=0;
+  For(int i=0;i<=x;i++)
+    s=s+1;
+  
+  return (s)
+  
+  
+  }
+  
+  public static void main(String[] args) { 
+    int n;
+    
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter your number");
+    n=scan.nextInt();
+    
+    
+    SumProg sp=new Sumprog();
+    sp.sum();
+    
+    System.out.println(s);
+    
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

@@ -1,0 +1,54 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class SavingAccount {
+  double interest;
+  double balance;
+  int month;
+  double deposit;
+  double withdraw;
+  
+  public void SavingAccount() { 
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter your starting balance");
+    balance=scan.nextDouble();
+    Scanner scan1=new Scanner(System.in);
+    System.out.println("Enter your annual interest");
+    interest=scan1.nextDouble();
+    Scanner scan2=new Scanner(System.in);
+    System.out.println("Enter your month");
+    month=scan2.nextInt();
+    Scanner scan3=new Scanner(System.in);
+    System.out.println("Enter your deposit");
+    deposit=scan3.nextInt();
+    Scanner scan4=new Scanner(System.in);
+    System.out.println("Enter your withdraw");
+    withdraw=scan4.nextInt();
+  }
+  public double deposit()
+  {
+    double result=balance+deposit;
+    return deposit;
+  }
+   public double withdraw()
+  {
+    double result=balance-withdraw;
+    return withdraw;
+  }
+  public static void main(String[] args) { 
+     SavingAccount sa=new SavingAccount();
+     for(int i=0;i<=sa.month;i++)
+     {
+       sa.deposit();
+       System.out.println(sa.deposit());
+       sa.withdraw();
+       System.out.println(sa.withdraw());
+     }
+     
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

@@ -1,0 +1,30 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.*;
+public class RversalString {
+  
+  
+  public static void main(String[] args) { 
+    Scanner scan=new Scanner(System.in);
+    String str;
+    System.out.println("Enter your string");
+    str=scan.nextLine();
+    
+     String result="";
+    for (int i=str.length()-1; i>=0; i--) {
+        result=result+str.charAt(i);
+    }
+    System.out.println(result);
+    
+    //for palindrome
+    if(result.equals(str))
+      System.out.println("It is a palindriome");
+    else
+      System.out.println("It is not a palindrome");
+
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
